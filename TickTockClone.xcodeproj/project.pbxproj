@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47ADA0282A95BC66004C5CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0272A95BC66004C5CB9 /* AppDelegate.swift */; };
+		47ADA02A2A95BC66004C5CB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0292A95BC66004C5CB9 /* SceneDelegate.swift */; };
+		47ADA02C2A95BC66004C5CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA02B2A95BC66004C5CB9 /* ViewController.swift */; };
+		47ADA02F2A95BC66004C5CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADA02D2A95BC66004C5CB9 /* Main.storyboard */; };
+		47ADA0312A95BC67004C5CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47ADA0302A95BC67004C5CB9 /* Assets.xcassets */; };
+		47ADA0342A95BC67004C5CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ADA0322A95BC67004C5CB9 /* LaunchScreen.storyboard */; };
+		47ADA03E2A960A9D004C5CB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA03D2A960A9D004C5CB9 /* SignUpViewController.swift */; };
+		47ADA0402A9618B1004C5CB9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA03F2A9618B1004C5CB9 /* SignInViewController.swift */; };
+		47ADA0422A96205D004C5CB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47ADA0412A96205D004C5CB9 /* GoogleService-Info.plist */; };
+		47ADA0442A977D60004C5CB9 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0432A977D60004C5CB9 /* Api.swift */; };
+		47ADA0462A977DBA004C5CB9 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0452A977DBA004C5CB9 /* UserApi.swift */; };
+		47ADA0482A97831E004C5CB9 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0472A97831E004C5CB9 /* StorageService.swift */; };
+		47ADA04A2A978824004C5CB9 /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0492A978824004C5CB9 /* Ref.swift */; };
+		47ADA04D2A98A9E6004C5CB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA04C2A98A9E6004C5CB9 /* ProfileViewController.swift */; };
+		47ADA04F2A98B87B004C5CB9 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA04E2A98B87B004C5CB9 /* CreatePostViewController.swift */; };
+		47ADA0512A9A1349004C5CB9 /* VideoClips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA0502A9A1349004C5CB9 /* VideoClips.swift */; };
+		47BDFE4A2AA47F9B0055FB14 /* PostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFE492AA47F9B0055FB14 /* PostApi.swift */; };
+		47BDFE4C2AA5F2E70055FB14 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFE4B2AA5F2E70055FB14 /* HomeViewController.swift */; };
+		47BDFE4E2AA5F30D0055FB14 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFE4D2AA5F30D0055FB14 /* HomeCollectionViewCell.swift */; };
+		47BDFE502AA6CE0D0055FB14 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFE4F2AA6CE0D0055FB14 /* Post.swift */; };
+		47BDFE522AA6D2E10055FB14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFE512AA6D2E10055FB14 /* User.swift */; };
+		47D558872A9C5963009AF1A0 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D558862A9C5963009AF1A0 /* SegmentedProgressView.swift */; };
+		47D558892A9C7574009AF1A0 /* PreviewCapturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D558882A9C7574009AF1A0 /* PreviewCapturedViewController.swift */; };
+		47D5588B2AA1E97B009AF1A0 /* VideoCompositionWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5588A2AA1E97B009AF1A0 /* VideoCompositionWriter.swift */; };
+		47D5588D2AA2097B009AF1A0 /* SharePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5588C2AA2097B009AF1A0 /* SharePostViewController.swift */; };
+		62F827E0682E6D5FAF1AC3FC /* Pods_TickTockClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8338B0FA0B9B0F556E9C30D /* Pods_TickTockClone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DC5D28B5E641AF2EAB9382 /* Pods-TickTockClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickTockClone.debug.xcconfig"; path = "Target Support Files/Pods-TickTockClone/Pods-TickTockClone.debug.xcconfig"; sourceTree = "<group>"; };
+		47ADA0242A95BC66004C5CB9 /* TickTockClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTockClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADA0272A95BC66004C5CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47ADA0292A95BC66004C5CB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47ADA02B2A95BC66004C5CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47ADA02E2A95BC66004C5CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47ADA0302A95BC67004C5CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47ADA0332A95BC67004C5CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47ADA0352A95BC67004C5CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ADA03D2A960A9D004C5CB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		47ADA03F2A9618B1004C5CB9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		47ADA0412A96205D004C5CB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47ADA0432A977D60004C5CB9 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		47ADA0452A977DBA004C5CB9 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		47ADA0472A97831E004C5CB9 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		47ADA0492A978824004C5CB9 /* Ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
+		47ADA04C2A98A9E6004C5CB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		47ADA04E2A98B87B004C5CB9 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		47ADA0502A9A1349004C5CB9 /* VideoClips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClips.swift; sourceTree = "<group>"; };
+		47BDFE492AA47F9B0055FB14 /* PostApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostApi.swift; sourceTree = "<group>"; };
+		47BDFE4B2AA5F2E70055FB14 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47BDFE4D2AA5F30D0055FB14 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		47BDFE4F2AA6CE0D0055FB14 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		47BDFE512AA6D2E10055FB14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		47D558862A9C5963009AF1A0 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
+		47D558882A9C7574009AF1A0 /* PreviewCapturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCapturedViewController.swift; sourceTree = "<group>"; };
+		47D5588A2AA1E97B009AF1A0 /* VideoCompositionWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompositionWriter.swift; sourceTree = "<group>"; };
+		47D5588C2AA2097B009AF1A0 /* SharePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePostViewController.swift; sourceTree = "<group>"; };
+		C8338B0FA0B9B0F556E9C30D /* Pods_TickTockClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickTockClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F965036D64DF0AF7F1AFFE /* Pods-TickTockClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickTockClone.release.xcconfig"; path = "Target Support Files/Pods-TickTockClone/Pods-TickTockClone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47ADA0212A95BC66004C5CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F827E0682E6D5FAF1AC3FC /* Pods_TickTockClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073251C8C60DB3657C905783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09DC5D28B5E641AF2EAB9382 /* Pods-TickTockClone.debug.xcconfig */,
+				F1F965036D64DF0AF7F1AFFE /* Pods-TickTockClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47ADA01B2A95BC66004C5CB9 = {
+			isa = PBXGroup;
+			children = (
+				47ADA0262A95BC66004C5CB9 /* TickTockClone */,
+				47ADA0252A95BC66004C5CB9 /* Products */,
+				073251C8C60DB3657C905783 /* Pods */,
+				7556577EE6B1F4C373064224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47ADA0252A95BC66004C5CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47ADA0242A95BC66004C5CB9 /* TickTockClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47ADA0262A95BC66004C5CB9 /* TickTockClone */ = {
+			isa = PBXGroup;
+			children = (
+				47ADA0272A95BC66004C5CB9 /* AppDelegate.swift */,
+				47ADA0292A95BC66004C5CB9 /* SceneDelegate.swift */,
+				47ADA02B2A95BC66004C5CB9 /* ViewController.swift */,
+				47ADA03D2A960A9D004C5CB9 /* SignUpViewController.swift */,
+				47ADA03F2A9618B1004C5CB9 /* SignInViewController.swift */,
+				47ADA04C2A98A9E6004C5CB9 /* ProfileViewController.swift */,
+				47ADA04E2A98B87B004C5CB9 /* CreatePostViewController.swift */,
+				47D558862A9C5963009AF1A0 /* SegmentedProgressView.swift */,
+				47D558882A9C7574009AF1A0 /* PreviewCapturedViewController.swift */,
+				47D5588C2AA2097B009AF1A0 /* SharePostViewController.swift */,
+				47BDFE4B2AA5F2E70055FB14 /* HomeViewController.swift */,
+				47BDFE4D2AA5F30D0055FB14 /* HomeCollectionViewCell.swift */,
+				47BDFE552AA71B2C0055FB14 /* Model */,
+				47BDFE532AA71ADA0055FB14 /* API */,
+				47ADA02D2A95BC66004C5CB9 /* Main.storyboard */,
+				47ADA0302A95BC67004C5CB9 /* Assets.xcassets */,
+				47ADA0322A95BC67004C5CB9 /* LaunchScreen.storyboard */,
+				47ADA0352A95BC67004C5CB9 /* Info.plist */,
+				47ADA0412A96205D004C5CB9 /* GoogleService-Info.plist */,
+			);
+			path = TickTockClone;
+			sourceTree = "<group>";
+		};
+		47BDFE532AA71ADA0055FB14 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				47D5588A2AA1E97B009AF1A0 /* VideoCompositionWriter.swift */,
+				47ADA0492A978824004C5CB9 /* Ref.swift */,
+				47ADA0472A97831E004C5CB9 /* StorageService.swift */,
+				47BDFE492AA47F9B0055FB14 /* PostApi.swift */,
+				47ADA0432A977D60004C5CB9 /* Api.swift */,
+				47ADA0452A977DBA004C5CB9 /* UserApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		47BDFE552AA71B2C0055FB14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47ADA0502A9A1349004C5CB9 /* VideoClips.swift */,
+				47BDFE4F2AA6CE0D0055FB14 /* Post.swift */,
+				47BDFE512AA6D2E10055FB14 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7556577EE6B1F4C373064224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8338B0FA0B9B0F556E9C30D /* Pods_TickTockClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47ADA0232A95BC66004C5CB9 /* TickTockClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ADA0382A95BC67004C5CB9 /* Build configuration list for PBXNativeTarget "TickTockClone" */;
+			buildPhases = (
+				13BB3D48BDAAD0A2558EF4F1 /* [CP] Check Pods Manifest.lock */,
+				47ADA0202A95BC66004C5CB9 /* Sources */,
+				47ADA0212A95BC66004C5CB9 /* Frameworks */,
+				47ADA0222A95BC66004C5CB9 /* Resources */,
+				BD397EFFD3F4312520E10DAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickTockClone;
+			productName = TickTockClone;
+			productReference = 47ADA0242A95BC66004C5CB9 /* TickTockClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47ADA01C2A95BC66004C5CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47ADA0232A95BC66004C5CB9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 47ADA01F2A95BC66004C5CB9 /* Build configuration list for PBXProject "TickTockClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47ADA01B2A95BC66004C5CB9;
+			productRefGroup = 47ADA0252A95BC66004C5CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47ADA0232A95BC66004C5CB9 /* TickTockClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47ADA0222A95BC66004C5CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADA0422A96205D004C5CB9 /* GoogleService-Info.plist in Resources */,
+				47ADA0342A95BC67004C5CB9 /* LaunchScreen.storyboard in Resources */,
+				47ADA0312A95BC67004C5CB9 /* Assets.xcassets in Resources */,
+				47ADA02F2A95BC66004C5CB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BB3D48BDAAD0A2558EF4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickTockClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD397EFFD3F4312520E10DAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickTockClone/Pods-TickTockClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickTockClone/Pods-TickTockClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TickTockClone/Pods-TickTockClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47ADA0202A95BC66004C5CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D5588D2AA2097B009AF1A0 /* SharePostViewController.swift in Sources */,
+				47ADA0442A977D60004C5CB9 /* Api.swift in Sources */,
+				47ADA0512A9A1349004C5CB9 /* VideoClips.swift in Sources */,
+				47BDFE4E2AA5F30D0055FB14 /* HomeCollectionViewCell.swift in Sources */,
+				47ADA02C2A95BC66004C5CB9 /* ViewController.swift in Sources */,
+				47ADA04D2A98A9E6004C5CB9 /* ProfileViewController.swift in Sources */,
+				47BDFE4C2AA5F2E70055FB14 /* HomeViewController.swift in Sources */,
+				47ADA0282A95BC66004C5CB9 /* AppDelegate.swift in Sources */,
+				47D558892A9C7574009AF1A0 /* PreviewCapturedViewController.swift in Sources */,
+				47ADA03E2A960A9D004C5CB9 /* SignUpViewController.swift in Sources */,
+				47ADA0402A9618B1004C5CB9 /* SignInViewController.swift in Sources */,
+				47ADA0482A97831E004C5CB9 /* StorageService.swift in Sources */,
+				47ADA04F2A98B87B004C5CB9 /* CreatePostViewController.swift in Sources */,
+				47D5588B2AA1E97B009AF1A0 /* VideoCompositionWriter.swift in Sources */,
+				47D558872A9C5963009AF1A0 /* SegmentedProgressView.swift in Sources */,
+				47ADA0462A977DBA004C5CB9 /* UserApi.swift in Sources */,
+				47ADA02A2A95BC66004C5CB9 /* SceneDelegate.swift in Sources */,
+				47ADA04A2A978824004C5CB9 /* Ref.swift in Sources */,
+				47BDFE4A2AA47F9B0055FB14 /* PostApi.swift in Sources */,
+				47BDFE502AA6CE0D0055FB14 /* Post.swift in Sources */,
+				47BDFE522AA6D2E10055FB14 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47ADA02D2A95BC66004C5CB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ADA02E2A95BC66004C5CB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47ADA0322A95BC67004C5CB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ADA0332A95BC67004C5CB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47ADA0362A95BC67004C5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47ADA0372A95BC67004C5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47ADA0392A95BC67004C5CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DC5D28B5E641AF2EAB9382 /* Pods-TickTockClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB2C2JWPK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TickTockClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iccyan.TickTockClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47ADA03A2A95BC67004C5CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F965036D64DF0AF7F1AFFE /* Pods-TickTockClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB2C2JWPK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TickTockClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iccyan.TickTockClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47ADA01F2A95BC66004C5CB9 /* Build configuration list for PBXProject "TickTockClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADA0362A95BC67004C5CB9 /* Debug */,
+				47ADA0372A95BC67004C5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47ADA0382A95BC67004C5CB9 /* Build configuration list for PBXNativeTarget "TickTockClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ADA0392A95BC67004C5CB9 /* Debug */,
+				47ADA03A2A95BC67004C5CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47ADA01C2A95BC66004C5CB9 /* Project object */;
+}

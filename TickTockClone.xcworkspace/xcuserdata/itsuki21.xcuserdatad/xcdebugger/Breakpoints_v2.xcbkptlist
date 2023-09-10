@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CB369669-0C49-4DE2-A062-205E0F378ADD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/CreatePostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "CreatePostViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - 45f3b251f0ee27d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.saveButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - 84a0a3a4a474d7ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.saveButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - ba0e2d76a497c3d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.saveButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - a5e16243bdb0d2d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.saveButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - 61a475a3301bd4ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TickTockClone.CreatePostViewController"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "009DF10E-0AE4-4C6F-89A6-0808675642CA - 3957c2398543760e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TickTockClone.CreatePostViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TickTockClone.CreatePostViewController&gt;"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/CreatePostViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38551509-D48E-4AC7-AC9A-6D7B7FE180B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/CreatePostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "CreatePostViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA147A6E-5AB5-42A5-A625-9EDEDA68D75B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/PreviewCapturedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C620655-02C2-4355-9D56-87D4E0EDC632"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/VideoCompositionWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "handleCreateExportSession(outputURL:mixComposition:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6B32EE5-5A0C-4955-AA52-4301294621FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/SharePostViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84B5A865-1DC3-43A6-ACE4-3E4241028891"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/PostApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "uploadThumbnailImageToStorage(selectedPhoto:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84B5A865-1DC3-43A6-ACE4-3E4241028891 - b4ad09eb6619b4ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;FirebaseStorage.StorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TickTockClone.PostApi.uploadThumbnailImageToStorage(selectedPhoto: Swift.Optional&lt;__C.UIImage&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/PostApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "84B5A865-1DC3-43A6-ACE4-3E4241028891 - b4ad09eb6619b4ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;FirebaseStorage.StorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TickTockClone.PostApi.uploadThumbnailImageToStorage(selectedPhoto: Swift.Optional&lt;__C.UIImage&gt;, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "TickTockClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsuki21/TickTockClone/TickTockClone/PostApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A618653-09D6-4A92-91B1-C7BE5CD41081"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TickTockClone/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "HomeViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
